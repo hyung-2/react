@@ -1,0 +1,74 @@
+.inputCon{
+  width: 100%;
+  text-align: right;
+  margin: 1rem;
+  margin-right: 2rem;
+}
+
+input{
+  padding: 5px;
+  border-radius: 8px;
+  outline: none;
+  padding-left: 9px;
+  border: 1px solid #eee;
+}
+
+/* 색상 */
+.blue{
+  color: blue;
+  border: 2px solid blue;
+}
+.blue::placeholder{
+  color: blue;
+}
+.tomato{
+  color: tomato;
+  border: 2px solid tomato;
+}
+.tomato::placeholder{
+  color: tomato;
+}
+.grey{
+  color: grey;
+  border: 2px solid  grey;
+}
+.grey::placeholder{
+  color: grey;
+}
+
+/* 사이즈 */
+.small{
+  width: 200px;
+  height: 20px;
+  font-size: .9rem;
+}
+.medium{
+  width: 300px;
+  height: 30px;
+  font-size: 1.1rem;
+}
+.large{
+  width: 400px;
+  height: 40px;
+  font-size: 1.4rem;
+}
+
+
+
+
+.label{
+  font-style: italic;
+  font-size: 1.4rem;
+  margin-right: .5rem;
+  border: none;
+}
+
+
+.searchInput{
+  width: 250px;
+  padding: 7px;
+  font-size: 1rem;
+  border: 2px solid peru;
+  margin-right: .7rem;
+  /* margin-left: 15rem; */
+}

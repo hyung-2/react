@@ -1,0 +1,340 @@
+.App {
+  text-align: center;
+  /* font-size: 2rem; */
+  margin: 100px auto;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+/* .loading{
+  position: absolute;
+  left: 50%; top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+} */
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* 9월4일 연습문제4 */
+/* body{
+  margin: 0;
+  padding: 0;
+  background: black;
+}
+.sign{
+  width: 100px;
+  height: 100px;
+  margin: 100px auto;
+  background: black;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.cell{
+  width: 10px; 
+  height: 10px;
+  background: blue;
+}
+.bright{
+  background: red;
+} */
+
+
+/* 배경화면이 1초마다 바뀌는 css */
+/* .color-box{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  font-weight: bold;
+  color: white;
+}
+.red{
+  background: red;
+}
+.blue{
+  background: blue;
+}
+.green{
+  background: green;
+}
+.orange{
+  background: orange;
+}
+.skyblue{
+  background: skyblue;
+}
+.pink{
+  background: pink;
+}
+.slategrey{
+  background: slategrey;
+} */
+
+/* 9월 6일 - 다크모드 */
+/* .normal{
+  width: 100%; height: 100vh;
+  position: absolute;
+  top: 0; left: 0;
+}
+
+.dark{
+  background: #333;
+  color: white;
+} */
+
+/* 9월 7일 - 간단한 이미지 뷰어 만들기 */
+/* .App{
+  margin: 100px auto;
+  text-align: center;
+}
+.img-container{
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  margin: 0 auto; 
+}
+.img-container img,
+.img-container video{
+  width: 100%;
+  height: 100%;
+}
+.control-btns{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+} */
+
+/* 9월 7일 - 버튼 이벤트로 사이드바 메뉴 만들기 */
+/* .App{
+  width: 100%; height: 100vh;
+  margin: 100px auto;
+  text-align: center;
+}
+.menu{
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-bottom: 2px solid tan;
+  color: darksalmon;
+}
+.menu:hover{
+  background-color: brown;
+  color: beige;
+} */
+
+/* 9월 7일 - 드롭다운을 이용해 사용자가 특정지역 선택시 지도에 표시하기 */
+/* .App{
+  width: 500px;
+  clear: both;
+  margin: 200px auto;
+}
+#map{
+  height: 400px;
+} */
+
+
+/* .App{
+  width: 300px;
+  clear: both;
+  margin: 200px auto;
+}
+.App label{
+  color:lightgreen;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.App input { 
+  width: 100%;
+  height: 30px;
+  clear: both;
+
+  border: 2px solid lightgreen;
+  border-radius: 15px;
+  outline: none;
+  padding: 10px;
+  color: lightgreen;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.App input::placeholder{
+  color: lightgreen;
+}
+.login-btn{
+  width: 320px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.con{
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  position: fixed;
+  top: 0; left: 0;
+} */
+
+/* .App{
+  width: 30%;
+  margin: 200px auto;
+}
+.Upload{
+  display: none;
+} */
+
+/* 체크박스, 라디오버튼 */
+/* .active{
+  background: skyblue;
+  text-decoration: line-through;
+  font-style: italic;
+} */
+
+
+/* 무한 스크롤 활용 - 서버에서 이미지 가져오기 */
+/* @import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  font-family: 'Nanum Pen Script', cursive;
+  color: lightblue;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.App-search-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.App-search-container input{
+  flex: 1; 
+  outline: none;
+  border: 2px solid lightblue;
+  border-radius: 5px;
+  height: 50px;
+  margin-right: 3px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  color: lightblue;
+  font-size: 1.3rem;
+}
+.App-search-container input::placeholder{
+  color: lightblue;
+}
+.App-search-container button{
+  all: unset;
+  background-color: lightblue;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 5px;
+  width: 80px; height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.App-photo-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%; height: 700px;
+  overflow: auto;
+}
+.App-photo-container div{
+  font-size: 5rem;
+  margin-bottom: 30px;
+  text-align: right;
+  margin-left: auto;
+}
+
+.App-photo-item{
+  flex: 1 0 25%;
+  height: 200px;
+} */
+
+/* 스크롤바의 너비 */
+/* .App-photo-container::-webkit-scrollbar {
+  width: 13px;  
+} */
+
+/* .App-photo-container::-webkit-scrollbar-thumb {
+  height: 30%;  스크롤바의 길이 
+  background: lightblue;  스크롤바의 색상 
+  
+  border-radius: 10px;
+} */
+
+/* .App-photo-container::-webkit-scrollbar-track {
+  background: rgba(33, 122, 244, .1);  스크롤바 뒷 배경 색상
+} */
+
+.shadow{
+  box-shadow: 0px 0px 10px 10px #333;
+}
+
+.totop{
+  position: fixed;
+  top: 100px;
+}
+
+.word{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
